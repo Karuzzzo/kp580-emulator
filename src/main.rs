@@ -27,16 +27,16 @@ struct CPU {
 impl CPU {
     fn new() -> Self {
         CPU{
-            PC : 0xffff,
-            SP : 0xffff,
-            A : 0,
-            B : 0,
-            C : 0,
-            D : 0,
-            E : 0,
-            H : 0,
-            L : 0,
-            RP : 0,            
+            PC: 0xffff,
+            SP: 0xffff,
+            A: 0,
+            B: 0,
+            C: 0,
+            D: 0,
+            E: 0,
+            H: 0,
+            L: 0,
+            RP: 0,            
         }
     }
     fn reset(&mut self){
